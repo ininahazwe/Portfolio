@@ -17,7 +17,7 @@ TweenMax.to(".overlay h1", 2, {
     ease: Expo.easeInOut
   })
 
-  TweenMax.from(".filigrane", 2, {
+  TweenMax.from(".filigrane", 0, {
     delay: 1,
     top: "100%",
     ease: Expo.easeInOut

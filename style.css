@@ -653,7 +653,7 @@ section.big-header .bio {
 
 .filigrane {
   position: absolute;
-  top: 2%;
+  top: 1.8%;
   width: 65%;
   height: 800px;
   background: #f5f5f5;
@@ -782,7 +782,7 @@ section.methodo {
 
 /* Section Projets*/
 section.projets {
-  margin-top: 10px;
+  margin-top: 120px;
 }
 
 .image-mob {
