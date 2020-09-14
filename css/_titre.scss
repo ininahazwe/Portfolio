@@ -1,0 +1,94 @@
+.outCircle {
+  width: 130px;
+  height: 130px;
+  border: 2px solid #3F3D56;
+  left: 520px;
+  position: absolute;
+  top: 150px;
+  -moz-border-radius: 100px;
+  -webkit-border-radius: 100px;
+  border-radius: 38% 62% 63% 37% / 41% 44% 56% 59%;
+  transition: 0.5s;
+  animation: animate 15s linear infinite;
+}
+
+.duringTwentyOne {
+  -webkit-animation-duration: 21s;
+}
+
+.duringTen {
+  -webkit-animation-duration: 10s;
+}
+
+.duringFour {
+  -webkit-animation-duration: 4s;
+}
+
+.infinite {
+  -webkit-animation-iteration-count: infinite;
+}
+
+.linear {
+  -webkit-animation-timing-function: linear;
+}
+
+.counter {
+  width: 50px;
+  height: 50px;
+  -webkit-animation-duration: inherit;
+  -webkit-animation-direction: reverse;
+  -webkit-animation-timing-function: inherit;
+  -webkit-animation-iteration-count: inherit;
+  -webkit-animation-name: inherit;
+}
+
+.rotate {
+  width: 100%;
+  height: 100%;
+  animation: circle 25s linear infinite;
+  position: relative;
+  z-index: 10;
+  display: block;
+}
+
+.second {
+  top: -100%;
+}
+
+.thirdBigger {
+  top: -240%;
+  left: -40%;
+  width: 150%;
+  height: 150%;
+}
+
+.inner {
+  width: 25px;
+  height: 25px;
+  -moz-border-radius: 50px;
+  -webkit-border-radius: 50px;
+  border-radius: 100px;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  background-color: var(--color2);
+  display: block;
+}
+
+@keyframes circle {
+  from {
+    -webkit-transform: rotateZ(0deg);
+  }
+  to {
+    -webkit-transform: rotateZ(360deg);
+  }
+}
+
+@keyframes animate{
+  0% {
+    transform: rotateZ(0deg);
+  }
+  100% {
+    transform: rotateZ(360deg);
+  }
+}

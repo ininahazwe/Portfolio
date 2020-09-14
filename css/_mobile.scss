@@ -1,0 +1,162 @@
+@media screen and (max-width: 768px){
+  main{
+    margin: 0 10% !important;
+  }
+  h2{
+    font-size: 3rem !important;
+    text-align: left;
+  }
+  .bio{
+    width: 100% !important;
+  }
+  .numero{
+    flex-direction: column;
+    width: 50% !important;
+  }
+  .projet-container{
+    flex-direction: column;
+  }
+  .background.footer{
+    max-width: 100%;
+  }
+  .rotate{
+    width: 50%;
+    height: 50%;
+  }
+  .fonction{
+    font-size: 2.5rem !important;
+    margin-top: 40px !important;
+  }
+  .postal{
+    display: none;
+  }
+  .overlay {
+    background: var(--color2);
+    color: #fff;
+  }
+  .outCircle {
+    left: 60px !important;
+  }
+
+  //header
+
+  section.big-header{
+    display: none;
+  }
+  .big-header{
+    display: none;
+  }
+  nav.menu-flottant{
+    display: flex;
+  }
+  .topmob-header{
+    height: 20vh;
+    position: fixed;
+    width: 100%;
+    z-index: 99;
+    top: 0;
+  }
+  .mob-entete{
+    display: block;
+  }
+  .mobmenu-flottant{
+    display: flex;
+    background: #fff;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+  .mob-nom{
+    background: var(--color2);
+    height: 7vh;
+    margin-top: auto;
+    margin-bottom: auto;
+    z-index: 99;
+  }
+  .mob-nom a{
+    text-align: center;
+    color: #fff;
+  }
+  .hover-this {
+    padding: 5px 0;
+  }
+
+  //Section header
+
+  .cache, .topmob-header{
+    display: inline !important;
+  }
+  .mob-header{
+    display: inline !important;
+  }
+  .mob-mail{
+    display: none;
+  }
+  .mob-accroche{
+    font-size: 1.3rem;
+    text-align: right;
+    margin-top: 150px;
+    display: flex;
+    align-items: flex-end;
+  }
+  .mob-bas{
+    font-size: 0.6rem;
+  }
+  .mob-bas, .mob-bio{
+    margin-top: 35px;
+  }
+  .mob-bio p{
+    text-align: justify;
+    font-size: 0.8rem;
+    padding: 10px;
+  }
+  .mob-identite {
+    width: 240px;
+    height: 140px;
+    background: url(img/creatifweb.svg) no-repeat;
+    background-size: contain;
+    cursor: pointer;
+    position: relative;
+    overflow: hidden;
+  }
+
+  //Forces
+
+  section.forces {
+    margin-top: 120px;
+    display: flex;
+    justify-content: center;
+  }
+  .forces-container{
+    flex-direction: column;
+  }
+  .connecteur{
+    display: none;
+  }
+
+  //Projets
+
+  section.projets {
+    margin-top: 100px !important;
+  }
+
+  .filigrane{
+    width: 100% !important;
+    left: 0;
+    height: 524px !important;
+  }
+  .image-mob{
+    display: block !important;
+    height: 160px;
+    overflow: hidden;
+    margin-bottom: 20px;
+
+    img{
+      width: 100%;
+    }
+  }
+  .projet-description{
+    margin-top: 20px;
+  }
+}
+

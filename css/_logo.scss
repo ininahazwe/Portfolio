@@ -1,0 +1,36 @@
+.hover-this {
+    transition: all 0.3s ease;
+}
+.cursor {
+    pointer-events: none;
+    position: fixed;
+    padding: 0.15rem;
+    background-color: var(--color2);
+    border-radius: 50%;
+    mix-blend-mode: luminosity;
+    transition: transform 0.3s ease;
+    z-index: -1;
+}
+
+.hover-this:hover ~ .cursor {
+    transform: translate(-50%, -50%) scale(8);
+}
+
+@media(min-width: 900px) {
+    nav {
+          display: flex;
+          justify-content: space-around;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    nav {
+          top: 30%;
+    }
+
+    .hover-this {
+          width: 100%;
+          padding: 20px 0;
+          display: inline-block;
+    }
+}
